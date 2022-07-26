@@ -6,7 +6,6 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class VerifyTotalPriceInCart extends BaseTest{
-
     @Test
     public void VerifyTotalPriceInCart() {
         LogInPage loginPage = new LogInPage(driver);
